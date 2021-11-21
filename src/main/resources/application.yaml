@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://ec2-52-201-168-60.compute-1.amazonaws.com:5432/dfaglh0igucke5
+    username: cflxktfaaeupnj
+    password: 05a7a43da186681db8d4b711c125f3d5d64bf654d12e3b2d0e5973cbcd1db02c
+    driverClassName: org.postgresql.Driver
